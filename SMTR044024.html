@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomia HTML</title>
+    <!--Le añadi un pequeño estilo por que no me gustaba como se veia la pagina asi nomas-->
+    <style>
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/736x/ee/47/1b/ee471beac9c2cc64a54f69cbe4b62094.jpg');
+            /* añadi una imagen de bataman de fondo*/
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #ffffff;
+        }
+
+        header {
+            font-family: fantasy;
+            background-color: rgb(51, 78, 99);
+            color: rgb(13, 161, 190);
+            font-size:x-large;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        /*Esta parte la añadi para que las letras de en encavezado tengan un estilo muy parecido a los de un comic */
+        header h1 {
+            text-shadow:
+                -2px -2px 0 #d8d8d8,
+                2px -2px 0 #d8d8d8,
+                -2px 2px 0 #d8d8d8,
+                2px 2px 0 #d8d8d8;
+        }
+
+        main,
+        section {
+            padding: 1.5rem;
+            background-color: rgb(37, 55, 56, 0.7);
+            margin: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 8px 10px rgba(0, 0, 0,0.7);
+        }
+
+        p1 {
+            display: block;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #f9f9f9;
+            margin: 1rem 0;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: rgb(255, 211, 53);
+            font-family: fantasy;
+            text-shadow:
+                -2px -2px 0 #ffffff,
+                2px -2px 0 #ffffff,
+                -2px 2px 0 #ffffff,
+                2px 2px 0 #ffffff;
+        }
+
+        ol {
+            padding-left: 1.2rem;
+        }
+
+        a {
+            color: #a32222;
+            text-decoration: double;
+            font-weight: bold;
+            font-family: fantasy;
+            text-shadow:
+                -2px -2px 0 #ffffff,
+                2px -2px 0 #ffffff,
+                -2px 2px 0 #ffffff,
+                2px 2px 0 #ffffff;     
+        }
+
+        a:hover {
+            color: rgb(116, 174, 89);
+            text-shadow:
+                -2px -2px 0 #ffffff,
+                2px -2px 0 #ffffff,
+                -2px 2px 0 #ffffff,
+                2px 2px 0 #ffffff;
+        }
+
+        footer {
+            background-color: #2f2741;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>BIENVENIDOS A MI PAGINA WEB</h1>
+    </header>
+    <!--Cambie esto a p1 para que me permitiese poenerlo al centro para que quede mas estetico el otro lo deje normal-->
+    <p1>Esta es una página de ejemplo para la tarea de la semana 1: Anatomia HTML de la asignatura Dessarrollo de Sitios
+        Web.</p1>
+    <main>
+        <h2>ACERCA DE MI</h2>
+        <p>Mi nombre es Roberto Carlos Chávez Campos, vivo en la ciudad de Chinameca, soy estudiante de la carrera de
+            Tecnico En Ingenieria en Sitemas y Redes Informaticas, mi hobit es dibujar(Cuando tengo tiempo), mi personaje favorito es Batman. Antes me gustaban los medallones de pollo, ahora ya
+            no.
+        </p>
+    </main>
+
+    <section>
+        <h2>NUESTROS SERVICIOS</h2>
+        <ol>
+            <li>Creatividad</li>
+            <br>
+            <li>Paciencia</li>
+            <br>
+            <li>Educacion</li>
+        </ol>
+        <a href="https://www.linkedin.com/in/roberto-chavez-2b1954241/" target="_blank" rel="noopener">VER MÁS</a>
+    </section>
+
+    <footer>
+        <a href="https://mail.google.com/mail/?view=cm&to=roberto2727chavez@gmail.com" target="_blank">ENVIAR CORREO</a>
+        ||
+        <a href="tel:+1234567890">LLAMAR</a>
+        <p>© Roberto Carlos Chávez. Todos los derechos reservados.</p>
+        <p>Exprimi toda mi creatividad con el diseño de esta pagina</p>
+    </footer>
+</body>
+
+</html>
